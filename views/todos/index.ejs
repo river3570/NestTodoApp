@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo一覧</title>
+  </head>
+  <body>
+    <h1>Todo一覧</h1>
+    <ul>
+      <% todos.forEach(todo => { %>
+        <li><%= todo.title %></li>
+      <% }) %>
+    </ul>
+  </body>
+</html>
