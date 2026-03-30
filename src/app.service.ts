@@ -5,8 +5,4 @@ export class AppService {
   getHello(): string {
     return "Hello NestJS!";
   }
-
-  getFood(food: string): string {
-    return `${food}!`;
-  }
 }

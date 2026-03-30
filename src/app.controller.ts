@@ -10,8 +10,4 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get("/food")
-  getFood(): string {
-    return this.appService.getFood("apple");
-  }
 }
